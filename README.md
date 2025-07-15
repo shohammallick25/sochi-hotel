@@ -1,4 +1,5 @@
 # Sochi Grand Resort & Spa 🌴
+<img width="1897" height="911" alt="image" src="https://github.com/user-attachments/assets/62072067-470f-4bd2-ad04-614cb735a295" />
 
 A fully responsive and elegant hotel website for **Sochi Grand Resort & Spa**, built with HTML, CSS, FontAwesome, and OwlCarousel. This site showcases the resort’s amenities, rooms, restaurant, gallery, booking form, and location—designed for luxury, usability, and clarity.
 
