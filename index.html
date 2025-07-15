@@ -4,6 +4,13 @@
 <head>
   <title>Hotel Website</title>
 
+  <!-- Manifest -->
+<link rel="manifest" href="manifest.json" />
+
+<!-- Meta for theme -->
+<meta name="theme-color" content="#4CAF50" />
+
+
   <link rel="shortcut icon" href="image/3.png" type="image/png">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -443,6 +450,15 @@
     </div><div><div><center>Developed by <b>Shoham Mallick</b></center></div></div>
 
   </footer>
+  <script>
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker
+      .register("service-worker.js")
+      .then((reg) => console.log("Service Worker Registered"))
+      .catch((err) => console.error("SW Registration Failed:", err));
+  }
+</script>
+
 </body>
 
 </html>
